@@ -1,0 +1,9 @@
+# 应用服务 WEB 访问端口
+server:
+  port: 8080
+
+minio:
+  endpoint: http://ubuntu-notebook:9091 #Minio服务所在地址
+  bucketName: boot-minio #存储桶名称
+  accessKey: minioadmin #访问的key
+  secretKey: minioadmin #访问的秘钥
